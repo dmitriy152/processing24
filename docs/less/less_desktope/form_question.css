@@ -1,0 +1,44 @@
+.form_question {
+  padding: 0px 160px 0px 160px;
+  height: 380px;
+  background-color: #024482;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form_question form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.form_question .title {
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+.form_question .description {
+  width: 70%;
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.form_question .form_conteiner {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.form_question .form_conteiner input {
+  margin: 0px;
+  font-weight: 400;
+}
+.form_question .description_privacy {
+  font-size: 14px;
+  font-weight: 400;
+}
+.form_question .description_privacy a {
+  color: white;
+}

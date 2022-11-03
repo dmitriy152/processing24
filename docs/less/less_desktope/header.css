@@ -1,0 +1,103 @@
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-transform: none;
+  background-color: white;
+}
+.contact_block {
+  padding: 0px 160px 16px 160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact_block .logo_block {
+  background-image: url("less/img/desktope_header_logo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 222px;
+  height: 45px;
+  margin-top: 8px;
+}
+.contact_conteiner {
+  display: flex;
+  align-items: center;
+  width: 573px;
+  height: 46px;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+.contact_conteiner button {
+  width: 176px;
+  height: 46px;
+  border: none;
+  border-radius: 0px;
+  background: #098FCF;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.telephone {
+  display: flex;
+  align-items: center;
+  margin-right: 35px;
+}
+.telephone .icon {
+  width: 17px;
+  height: 17px;
+  background-image: url("less/img/icon_telephone.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 14px;
+}
+.telephone span {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+.login {
+  display: flex;
+  align-items: center;
+}
+.login .icon {
+  width: 14px;
+  height: 16px;
+  background-image: url("less/img/user_button.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 13px;
+}
+.nav_block {
+  padding: 0px 160px 0px 160px;
+  height: 60px;
+  background-color: #F9F9F9;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.nav_link {
+  margin-right: 40px;
+}
+.nav_link a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+}
+.nav_link .icon {
+  width: 10px;
+  height: 7px;
+  background-image: url("less/img/icon_arrow_duwn.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 10px;
+}

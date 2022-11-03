@@ -1,0 +1,67 @@
+.footer_conteiner {
+  display: flex;
+  padding: 0px 160px 0px 160px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fafafa;
+  height: 194px;
+}
+.logo_block {
+  display: flex;
+  flex-direction: column;
+}
+.logo_block .logo_footer {
+  background-image: url("less/img/desktope_header_logo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 222px;
+  height: 45px;
+  margin-bottom: 20px;
+}
+.nav_link_block a {
+  text-decoration: none;
+  color: #505770;
+  font-size: 16px;
+  font-weight: 600;
+}
+.nav_link_block .nav_link {
+  margin: 0px;
+}
+.link_conteiner a {
+  text-decoration: none;
+  color: #505770;
+  font-size: 16px;
+  font-weight: 600;
+}
+.link_conteiner .nav_link {
+  margin: 0px;
+}
+.contact_block_footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0px;
+}
+.contact_block_footer .title {
+  color: black;
+  font-weight: 700;
+  font-size: 18px;
+}
+.contact_block_footer .telephone {
+  color: #079ad5;
+  font-weight: 700;
+  font-size: 22px;
+  margin: 0px;
+}
+.privacy_policy {
+  padding: 0px 160px 0px 160px;
+  background-color: white;
+  height: 52px;
+  display: flex;
+  align-items: center;
+}
+.privacy_policy a {
+  text-decoration: none;
+  font-weight: 400;
+  color: black;
+}
