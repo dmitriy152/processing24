@@ -215,7 +215,7 @@ main {
     margin-left: 10px;
   }
   .quick_order_block {
-    width: 100%;
+    padding: 0px 160px 0px 160px;
     margin-bottom: 100px;
   }
   .quick_order_block .title_main {
@@ -310,7 +310,7 @@ main {
     border-radius: 0px;
   }
   .table_block {
-    width: 100%;
+    padding: 0px 160px 0px 160px;
   }
   .table_block .title {
     font-style: normal;
@@ -323,10 +323,401 @@ main {
   .table_conteiner {
     width: 100%;
   }
-  .form_question {
+  .work_block {
+    padding: 100px 160px 100px 160px;
+    background-color: white;
+  }
+  .work_block .title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+    margin-bottom: 48px;
+  }
+  .work_conteiner {
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .card_work {
+    padding: 30px 30px 0px 30px;
+    width: 25%;
+    height: 394px;
+    background: #043C77;
+  }
+  .card_work .header_work {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  .card_work .header_work .icon {
+    width: 64px;
+    height: 64px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .click {
+    background-image: url("less/img/click.png");
+  }
+  .phone {
+    background-image: url("less/img/phone.png");
+  }
+  .gas {
+    background-image: url("less/img/gas.png");
+  }
+  .description_conteiner .title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: right;
+    color: #FFFFFF;
+    margin-bottom: 17px;
+  }
+  .description_conteiner .img {
+    background-image: url("less/img/arrow_work.png");
+    width: 60px;
+    height: 14px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .text_block {
+    padding-right: 10px;
+  }
+  .text_block .title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+  }
+  .text_block .description {
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+  }
+  .text_block .description span {
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    color: #FFFFFF;
+  }
+  .advantages_block {
+    padding: 80px 160px 72px 160px;
+    background: #F9F9F9;
+    margin-bottom: 100px;
+  }
+  .advantages_block .title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+    margin-bottom: 48px;
+  }
+  .advantages_conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .advantages_card {
+    padding: 20px;
+    width: 28%;
+    margin-bottom: 30px;
+    display: flex;
+    background: #FFFFFF;
+  }
+  .advantages_card .icon {
+    width: 48px;
+    height: 48px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 19px;
+  }
+  .advantages_card .certificat {
+    background-image: url("less/img/certificate.png");
+  }
+  .advantages_card .clock {
+    background-image: url("less/img/clock.png");
+  }
+  .advantages_card .ruble {
+    background-image: url("less/img/ruble.png");
+  }
+  .advantages_card .place {
+    background-image: url("less/img/place.png");
+  }
+  .advantages_card .shield {
+    background-image: url("less/img/shield.png");
+  }
+  .advantages_card .way {
+    background-image: url("less/img/way.png");
+  }
+  .advantages_card .text_block {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 0px;
+  }
+  .advantages_card .text_block .title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    margin-bottom: 12px;
+  }
+  .advantages_card .text_block .description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #565656;
+  }
+  .certification_block {
+    position: relative;
+    padding: 0px 160px 0px 160px;
+  }
+  .certification_block .title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+    margin-bottom: 48px;
+  }
+  .certification_card_block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+  }
+  .certification_card_block .one {
+    background-image: url("less/img/certification_one.png");
+  }
+  .certification_card_block .two {
+    background-image: url("less/img/certification_two.png");
+  }
+  .certification_card_block .three {
+    background-image: url("less/img/certification_three.png");
+  }
+  .certification_card_block .four {
+    background-image: url("less/img/certification_four.png");
+  }
+  .certification_card_block .certification_card {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 257px;
+    height: 357px;
+  }
+  .partners_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 152px;
+    height: 86px;
+    padding-bottom: 48px;
+    border-bottom: 1px solid #E7E7E7;
+  }
+  .partners_block .partners_card {
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .partners_block .lukoil {
+    background-image: url("less/img/lukoil.png");
+    width: 196px;
+    height: 52px;
+  }
+  .partners_block .gazprom {
+    background-image: url("less/img/gazprom.png");
+    width: 160px;
+    height: 77px;
+  }
+  .partners_block .rosneft {
+    background-image: url("less/img/rosneft.png");
+    width: 217px;
+    height: 112px;
+  }
+  .partners_block .tatneft {
+    background-image: url("less/img/tatneft.png");
+    width: 202px;
+    height: 56px;
+  }
+  .button_next,
+  .button_prev {
+    width: 56px;
+    height: 56px;
+    border: 1px solid #D5D5D5;
+    background-color: white;
+  }
+  .button_next {
+    position: absolute;
+    right: 172px;
+    top: 0px;
+  }
+  .button_next .icon_next {
+    background-image: url("less/img/icon_button_arrow.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 7px;
+    height: 14px;
+    rotate: 180deg;
+    margin: 0 auto;
+  }
+  .button_prev {
+    position: absolute;
+    right: 244px;
+    top: 0px;
+  }
+  .button_prev .icon_prev {
+    background-image: url("less/img/icon_button_arrow.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 7px;
+    height: 14px;
+    margin: 0 auto;
+  }
+  .button_next,
+  .button_prev:hover {
+    cursor: pointer;
+  }
+  .reviews_block {
+    padding: 86px 160px 80px 160px;
+    background: #F9F9F9;
+    position: relative;
+  }
+  .reviews_block .title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+    margin-bottom: 48px;
+  }
+  .reviews_block .swiper-button-next {
+    top: 94px;
+    right: 161px;
+    width: 56px;
+    height: 56px;
+    border: 1px solid #D5D5D5;
+  }
+  .reviews_block .swiper-button-prev {
+    top: 94px;
+    left: auto;
+    right: 235px;
+    width: 56px;
+    height: 56px;
+    border: 1px solid #D5D5D5;
+  }
+  .reviews_block .swiper-button-next:after,
+  .reviews_block .swiper-button-prev:after {
+    font-size: 12px;
+    font-weight: 900;
+    color: #000000;
+  }
+  .swiper-slide {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .review_conteiner {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px;
+    height: 368px;
+    background-color: white;
+    margin-right: 30px;
+    width: 45%;
+  }
+  .review_conteiner .title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    margin-bottom: 12px;
+  }
+  .review_conteiner .description {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #565656;
+    margin-bottom: 40px;
+  }
+  .review_conteiner .review {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #000000;
+  }
+  .review_conteiner .more {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #098FCF;
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+  }
+  .two_reviews {
+    margin: 0px;
+  }
+  .form_question {
+    padding: 0px 160px 0px 160px;
     height: 380px;
     background-color: #024482;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .form_question form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  .form_question .title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 25px;
+  }
+  .form_question .description {
+    width: 70%;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .form_question .form_conteiner {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  }
+  .form_question .form_conteiner input {
+    margin: 0px;
+    font-weight: 400;
+  }
+  .form_question .description_privacy {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .form_question .description_privacy a {
+    color: white;
   }
   .footer_conteiner {
     display: flex;
@@ -346,6 +737,7 @@ main {
     background-repeat: no-repeat;
     width: 222px;
     height: 45px;
+    margin-bottom: 20px;
   }
   .nav_link_block a {
     text-decoration: none;

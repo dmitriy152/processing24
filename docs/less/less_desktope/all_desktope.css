@@ -210,6 +210,165 @@ header {
 .table_conteiner {
   width: 100%;
 }
+.work_block {
+  padding: 100px 160px 100px 160px;
+  background-color: white;
+}
+.work_block .title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #000000;
+  margin-bottom: 48px;
+}
+.work_conteiner {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.card_work {
+  padding: 30px 30px 0px 30px;
+  width: 25%;
+  height: 394px;
+  background: #043C77;
+}
+.card_work .header_work {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.card_work .header_work .icon {
+  width: 64px;
+  height: 64px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.click {
+  background-image: url("less/img/click.png");
+}
+.phone {
+  background-image: url("less/img/phone.png");
+}
+.gas {
+  background-image: url("less/img/gas.png");
+}
+.description_conteiner .title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: right;
+  color: #FFFFFF;
+  margin-bottom: 17px;
+}
+.description_conteiner .img {
+  background-image: url("less/img/arrow_work.png");
+  width: 60px;
+  height: 14px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.text_block {
+  padding-right: 10px;
+}
+.text_block .title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 26px;
+  color: #FFFFFF;
+  margin-bottom: 24px;
+}
+.text_block .description {
+  display: flex;
+  flex-direction: column;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+.text_block .description span {
+  margin-top: 15px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+.advantages_block {
+  padding: 80px 160px 72px 160px;
+  background: #F9F9F9;
+  margin-bottom: 100px;
+}
+.advantages_block .title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #000000;
+  margin-bottom: 48px;
+}
+.advantages_conteiner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.advantages_card {
+  padding: 20px;
+  width: 28%;
+  margin-bottom: 30px;
+  display: flex;
+  background: #FFFFFF;
+}
+.advantages_card .icon {
+  width: 48px;
+  height: 48px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 19px;
+}
+.advantages_card .certificat {
+  background-image: url("less/img/certificate.png");
+}
+.advantages_card .clock {
+  background-image: url("less/img/clock.png");
+}
+.advantages_card .ruble {
+  background-image: url("less/img/ruble.png");
+}
+.advantages_card .place {
+  background-image: url("less/img/place.png");
+}
+.advantages_card .shield {
+  background-image: url("less/img/shield.png");
+}
+.advantages_card .way {
+  background-image: url("less/img/way.png");
+}
+.advantages_card .text_block {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  padding: 0px;
+}
+.advantages_card .text_block .title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+  margin-bottom: 12px;
+}
+.advantages_card .text_block .description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #565656;
+}
 .certification_block {
   position: relative;
   padding: 0px 160px 0px 160px;
