@@ -20,3 +20,4 @@ var swiper = new Swiper(".mySwiper", {
 setInterval(() => {
   swiper.slideNext();
 }, 5000);
+

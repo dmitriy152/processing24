@@ -8,7 +8,6 @@
   <link rel="apple-touch-icon" href="less/img/header_logo.png">
   <link rel="icon" href="favicon.ico" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
-  <link rel="stylesheet/less" type="text/css" href="./main.less" />
   <link rel="stylesheet/less" type="text/css" href="./main.css" />
   <link rel="preconnect" href="https://fonts.gstatic.com">
 </head>
@@ -60,8 +59,159 @@
             <div class="title">Стоимость топлива</div>
             <div class="table_conteiner">
                 <table>
-
+                    <thead>
+                        <tr>
+                            <th colspan="1" class="col_one">Сорт топлива</th>
+                            <th colspan="1" class="col_two">Экологический класс</th>
+                            <th colspan="1" class="col_last">Производитель</th>
+                            <th colspan="1" class="col_last">Наличный расчет</th>
+                            <th colspan="1" class="col_last">Безналичный расчет</th>
+                        </tr>
+                    </thead>
+                    <tr class="margin"></tr>
+                    <tbody class="tbody">
+                        <tr>
+                            <td rowspan="5" class="col_one disel">ДТ</td>
+                            <td rowspan="3" class="col_two td min_title">Евро-5</td>
+                            <td class="col_last td brdr_lft">Газпромнефть</td>
+                            <td class="col_last td brdr_lft">45.43 р.</td>
+                            <td class="col_last td brdr_lft">44.43 р.</td>
+                        </tr>
+                        <tr>
+                            <td class="col_last td brdr_lft">Лукойл</td>
+                            <td class="col_last td brdr_lft">45.16 р.</td>
+                            <td class="col_last td brdr_lft">43.98 р.</td>
+                        </tr>
+                        <tr>
+                            <td class="col_last td brdr_lft">Роснефть</td>
+                            <td class="col_last td brdr_lft">42.34 р.</td>
+                            <td class="col_last td brdr_lft">41.64 р.</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2" class="col_two td min_title">Евро-4</td>
+                            <td class="col_last td brdr_lft">Газпромнефть</td>
+                            <td class="col_last td brdr_lft">-</td>
+                            <td class="col_last td brdr_lft">-</td>
+                        </tr>
+                        <tr>
+                            <td class="col_last td brdr_lft">Лукойл</td>
+                            <td class="col_last td brdr_lft">41.16 р.</td>
+                            <td class="col_last td brdr_lft">40.67 р.</td>
+                        </tr>
+                    </tbody>
+                        <tr class="margin"></tr>
+                    <tbody class="tbody">
+                        <tr>
+                            <td rowspan="8" class="col_one disel">АИ-95</td>
+                            <td rowspan="3" class="col_two td min_title">Евро-5</td>
+                            <td class="col_last td brdr_lft">Газпромнефть</td>
+                            <td class="col_last td brdr_lft">45.43 р.</td>
+                            <td class="col_last td brdr_lft">44.43 р.</td>
+                        </tr>
+                        <tr>
+                            <td class="col_last td brdr_lft">Роснефть</td>
+                            <td class="col_last td brdr_lft">42.34 р.</td>
+                            <td class="col_last td brdr_lft">41.64 р.</td>
+                        </tr>
+                        <tr>
+                            <td class="col_last td brdr_lft">Лукойл</td>
+                            <td class="col_last td brdr_lft">45.16 р.</td>
+                            <td class="col_last td brdr_lft">43.98 р.</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2" class="col_two td min_title">Евро-4</td>
+                            <td class="col_last td brdr_lft">Лукойл</td>
+                            <td class="col_last td brdr_lft">41.16 р.</td>
+                            <td class="col_last td brdr_lft">40.67 р.</td>
+                        </tr>
+                        <tr>
+                            <td class="col_last td brdr_lft">Газпромнефть</td>
+                            <td class="col_last td brdr_lft">-</td>
+                            <td class="col_last td brdr_lft">-</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3" class="col_two td min_title">Евро-3</td>
+                            <td class="col_last td brdr_lft">Роснефть</td>
+                            <td class="col_last td brdr_lft">42.34 р.</td>
+                            <td class="col_last td brdr_lft">41.64 р.</td>
+                        </tr>
+                        <tr>
+                            <td class="col_last td brdr_lft">Газпромнефть</td>
+                            <td class="col_last td brdr_lft">-</td>
+                            <td class="col_last td brdr_lft">-</td>
+                        </tr>
+                        <tr>
+                            <td class="col_last td brdr_lft">Лукойл</td>
+                            <td class="col_last td brdr_lft">45.16 р.</td>
+                            <td class="col_last td brdr_lft">43.98 р.</td>
+                        </tr>
+                    </tbody>
                 </table>
+            </div>
+        </div>
+
+        <div class="delivery_block">
+            <div class="title">Топливо с доставкой</div>
+            <div class="form_block">
+                <form action="">
+                    <div class="input_block">
+                        <label for="">Вид топлива</label>
+                        <select name="pets" id="pet-select">
+                            <option value="">ДТ</option>
+                            <option value="">ДТ Евро-5</option>
+                            <option value="">ДТ Евро-4</option>
+                            <option value="">АИ-95 Евро-5</option>
+                            <option value="">АИ-95 Евро-4</option>
+                            <option value="">АИ-95 Евро-3</option>
+                        </select>
+                    </div>
+                    <div class="input_block">
+                        <label for="">Объем топлива</label>
+                        <input type="text" placeholder="1670 литров">
+                        <input value="1670"
+                         min="0"
+                         max="6000"
+                         type="range"
+                         class="range"
+                         step="10">
+                    </div>
+                    <div class="input_block">
+                        <label for="">Место доставки</label>
+                        <input type="text" placeholder="Укажите место">
+                    </div>
+                    <div class="input_block">
+                        <label for="">Ваше имя</label>
+                        <input type="text" placeholder="Иван">
+                    </div>
+                    <div class="input_block">
+                        <label for="">Номер телефона</label>
+                        <input type="tel" placeholder="+7 (___) ___-__-__">
+                    </div>
+                    <input type="submit" class="submit_buy" value="Заказать топливо">
+                </form>
+            </div>
+            <div class="card_block">
+                <div class="title">Итого</div>
+                <div class="price">
+                    <span>Стоимость топлива</span>
+                    <span>77 350.00 ₽</span>
+                </div>
+                <div class="buy">
+                    <div class="up_block">
+                        <span>Цена за литр:</span>
+                        <span>45.50 ₽</span>
+                    </div>
+                    <span class="description">Цена и стоимость указаны ориентировочно. 
+                        Точные цену и стоимость собщит наш менеджер при подтверждении заявки.
+                    </span>
+                </div>
+                <div class="result">
+                    <div class="conteiner">
+                        <span>Выгода:</span>
+                        <span class="bold">6 953.00 ₽</span>
+                    </div>
+                    <span class="description">При цене на АЗС  49.59 ₽  за литр, цены актуальны на  23.11.2020 г. </span>
+                </div>
             </div>
         </div>
 
