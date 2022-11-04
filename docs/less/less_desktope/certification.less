@@ -1,4 +1,5 @@
 .certification_block{
+    position: relative;
     padding: 0px 160px 0px 160px;
     .title{
         font-style: normal;
@@ -64,4 +65,41 @@
         width: 202px;
         height: 56px;
     }
+}
+.button_next, .button_prev{
+    width: 56px;
+    height: 56px;
+    border: 1px solid #D5D5D5;
+    background-color: white;
+}
+.button_next{
+    
+    position: absolute;
+    right: 172px;
+    top: 0px;
+    .icon_next{
+        background-image: url("less/img/icon_button_arrow.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 7px;
+        height: 14px;
+        rotate: 180deg;
+        margin: 0 auto;
+    }
+}
+.button_prev{
+    position: absolute;
+    right: 244px;
+    top: 0px;
+    .icon_prev{
+        background-image: url("less/img/icon_button_arrow.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 7px;
+        height: 14px;
+        margin: 0 auto;
+    }
+}
+.button_next, .button_prev:hover{
+    cursor: pointer;
 }

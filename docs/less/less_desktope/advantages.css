@@ -1,0 +1,70 @@
+.advantages_block {
+  padding: 80px 160px 72px 160px;
+  background: #F9F9F9;
+  margin-bottom: 100px;
+}
+.advantages_block .title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #000000;
+  margin-bottom: 48px;
+}
+.advantages_conteiner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.advantages_card {
+  padding: 20px;
+  width: 28%;
+  margin-bottom: 30px;
+  display: flex;
+  background: #FFFFFF;
+}
+.advantages_card .icon {
+  width: 48px;
+  height: 48px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 19px;
+}
+.advantages_card .certificat {
+  background-image: url("less/img/certificate.png");
+}
+.advantages_card .clock {
+  background-image: url("less/img/clock.png");
+}
+.advantages_card .ruble {
+  background-image: url("less/img/ruble.png");
+}
+.advantages_card .place {
+  background-image: url("less/img/place.png");
+}
+.advantages_card .shield {
+  background-image: url("less/img/shield.png");
+}
+.advantages_card .way {
+  background-image: url("less/img/way.png");
+}
+.advantages_card .text_block {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+.advantages_card .text_block .title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+  margin-bottom: 12px;
+}
+.advantages_card .text_block .description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #565656;
+}
